@@ -9,6 +9,5 @@ namespace WebAPI.Repository
     interface ITodoRepositories
     {
         Task<IEnumerable<Todo>> GetTaskList();
-
     }
 }
