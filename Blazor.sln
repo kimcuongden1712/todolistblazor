@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blazor", "Blazor\Blazor.csproj", "{B3F81450-935D-4C4F-B93B-FA6BE6B75830}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorWasm", "BlazorWasm\BlazorWasm.csproj", "{863715CD-A28D-4D8A-8D56-2272AE219CBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{5976AC87-7DAF-4E8C-8CFC-E923684CD53A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3F81450-935D-4C4F-B93B-FA6BE6B75830}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3F81450-935D-4C4F-B93B-FA6BE6B75830}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3F81450-935D-4C4F-B93B-FA6BE6B75830}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3F81450-935D-4C4F-B93B-FA6BE6B75830}.Release|Any CPU.Build.0 = Release|Any CPU
+		{863715CD-A28D-4D8A-8D56-2272AE219CBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{863715CD-A28D-4D8A-8D56-2272AE219CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{863715CD-A28D-4D8A-8D56-2272AE219CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{863715CD-A28D-4D8A-8D56-2272AE219CBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5976AC87-7DAF-4E8C-8CFC-E923684CD53A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5976AC87-7DAF-4E8C-8CFC-E923684CD53A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5976AC87-7DAF-4E8C-8CFC-E923684CD53A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5976AC87-7DAF-4E8C-8CFC-E923684CD53A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD7D0CA9-040E-4B2A-A316-AAC0E9AEC961}
+	EndGlobalSection
+EndGlobal
